@@ -1,0 +1,10 @@
+# imports here
+buffer = BytesIO()
+c = pycurl.Curl()
+c.setopt(c.URL, "http://httpbin.org")
+c.setopt(c.FOLLOWLOCATION, 1)
+c.setopt(c.WRITEDATA, buffer)
+c.perform()
+c.close()
+response = buffer.getvalue()
+print(response.decode("utf-8"))
