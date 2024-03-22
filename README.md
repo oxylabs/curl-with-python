@@ -6,7 +6,7 @@
 
 Follow this guide to learn how to use cURL in Python to easily send HTTP requests to websites. We'll overview how to send GET and POST requests, custom HTTP headers, handle redirects, and how to fix common PycURL issues.
 
-See the [full article](https://oxylabs.io/blog/curl-with-python) in our blog.
+See the [full article](https://oxylabs.io/blog/curl-with-python) on our website.
 
 - [Install Python cUrl Library](#install-python-curl-library)
 - [GET Requests with PycURL](#get-requests-with-pycurl)
