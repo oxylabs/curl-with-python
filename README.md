@@ -1,8 +1,8 @@
 # How to Use cURL With Python
 
-[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=curl-with-python-github&transaction_id=102f49063ab94276ae8f116d224b67)
+[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=github&utm_medium=referral&utm_content=curl-with-python&utm_campaign=banner&groupid=877)
 
-<a href="https://oxylabs.io"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
+<a href="https://oxylabs.io/?utm_source=github&utm_medium=referral&utm_content=curl-with-python&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
 <a href="https://developers.oxylabs.io"><img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
 <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/📊_Dashboard-2EA44F?style=for-the-badge" alt="Dashboard"></a>
 <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/💬_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
@@ -12,7 +12,7 @@
 
 Follow this guide to learn how to use cURL in Python to easily send HTTP requests to websites. We'll overview how to send GET and POST requests, custom HTTP headers, handle redirects, and how to fix common PycURL issues.
 
-See the [full article](https://oxylabs.io/blog/curl-with-python) on our website.
+See the [full article](https://oxylabs.io/blog/curl-with-python?utm_source=github&utm_medium=referral&utm_content=curl-with-python&groupid=877) on our website.
 
 - [Install Python cUrl Library](#install-python-curl-library)
 - [GET Requests with PycURL](#get-requests-with-pycurl)
@@ -62,7 +62,7 @@ body = buffer.getvalue()
 print(body.decode('utf-8'))
 ```
 
-In this example, we’re creating a PycURL object, setting the URL option, and providing a buffer to store the response data. For comparison, see [how GET requests can be sent via cURL](https://oxylabs.io/blog/curl-get-requests) in the terminal.
+In this example, we’re creating a PycURL object, setting the URL option, and providing a buffer to store the response data. For comparison, see [how GET requests can be sent via cURL](https://oxylabs.io/blog/curl-get-requests?utm_source=github&utm_medium=referral&utm_content=curl-with-python&groupid=877) in the terminal.
 
 ## POST Requests with PycURL
 
@@ -85,7 +85,7 @@ response = buffer.getvalue()
 print(response.decode("utf-8"))
 ```
 
-Here, we’re creating a dictionary with the data we want to send, convert to a query string format, and setting the `POSTFIELDS` option to the prepared data. If you're interested in running cURL via your terminal, see this post on [how to send POST requests with cURL](https://oxylabs.io/blog/curl-post-requests).
+Here, we’re creating a dictionary with the data we want to send, convert to a query string format, and setting the `POSTFIELDS` option to the prepared data. If you're interested in running cURL via your terminal, see this post on [how to send POST requests with cURL](https://oxylabs.io/blog/curl-post-requests?utm_source=github&utm_medium=referral&utm_content=curl-with-python&groupid=877).
 
 ## Sending Custom HTTP Headers
 
@@ -107,7 +107,7 @@ response = buffer.getvalue()
 print(response.decode("utf-8"))
 ```
 
-In this example, we’re creating a list of custom headers and setting the `HTTP HEADER` option to this list. After executing the request, we close the PycURL object and print the response. The process of [sending HTTP headers with cURL ](https://oxylabs.io/blog/curl-send-headers)via the terminal doesn't differ too much.
+In this example, we’re creating a list of custom headers and setting the `HTTP HEADER` option to this list. After executing the request, we close the PycURL object and print the response. The process of [sending HTTP headers with cURL ](https://oxylabs.io/blog/curl-send-headers?utm_source=github&utm_medium=referral&utm_content=curl-with-python&groupid=877)via the terminal doesn't differ too much.
 
 ## Sending JSON Data with PycURL
 
@@ -270,6 +270,6 @@ print(response.decode("utf-8"))
 
 Using cURL with Python through the PycURL library offers a range of powerful features for interacting with web resources and APIs. Following the examples in this guide, you can perform tasks such as GET and POST requests, handling HTTP requests, headers and form data, and even web scraping.
 
-We hope that you found this guide helpful. If you have any questions related to the matter, feel free to contact us at support@oxylabs.io, and our professionals will get back to you within a day. If you're curious to learn more about the topic, check out our articles on [How to Use cURL With Proxy?](https://oxylabs.io/blog/curl-with-proxy), [cURL with Python](https://oxylabs.io/blog/curl-with-python), and [cURL with APIs](https://oxylabs.io/blog/curl-with-api).
+We hope that you found this guide helpful. If you have any questions related to the matter, feel free to contact us at support@oxylabs.io, and our professionals will get back to you within a day. If you're curious to learn more about the topic, check out our articles on [How to Use cURL With Proxy?](https://oxylabs.io/blog/curl-with-proxy?utm_source=github&utm_medium=referral&utm_content=curl-with-python&groupid=877), [cURL with Python](https://oxylabs.io/blog/curl-with-python?utm_source=github&utm_medium=referral&utm_content=curl-with-python&groupid=877), and [cURL with APIs](https://oxylabs.io/blog/curl-with-api?utm_source=github&utm_medium=referral&utm_content=curl-with-python&groupid=877).
 
 
